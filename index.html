@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="./assets/images/logo-calc.png" type="image/x-icon">
+    <title>Web Calc</title>
+    <script src="https://kit.fontawesome.com/6edb685753.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Minha Calculadora</h1>
+    </header>
+    <main class="content">
+        <section class="container_calc">
+            <div class="container_visor_calc">
+                <label id="view">0</label>
+            </div>
+            <div class="container_btn_calc">
+                <div class="row_calc" id="row01">
+                    <div class="btn"><button>CE</button></div>
+                    <div class="btn"><button id="clear">C</button></div>
+                    <div class="btn"><button id="eraser"><i class="fa-solid fa-delete-left"></i></button></div>
+                    <div class="btn"><button id="division">/</button></div>
+                </div>
+                <div class="row_calc" id="row02">
+                    <div class="btn"><button>7</button></div>
+                    <div class="btn"><button>8</button></div>
+                    <div class="btn"><button>9</button></div>
+                    <div class="btn"><button id="multiplication">*</button></div>
+                </div>
+                <div class="row_calc" id="row03">
+                    <div class="btn"><button>4</button></div>
+                    <div class="btn"><button>5</button></div>
+                    <div class="btn"><button>6</button></div>
+                    <div class="btn"><button id="minus">-</button></div>
+                </div>
+                <div class="row_calc" id="row04">
+                    <div class="btn"><button>1</button></div>
+                    <div class="btn"><button>2</button></div>
+                    <div class="btn"><button>3</button></div>
+                    <div class="btn"><button id="plus">+</button></div>
+                </div>
+                <div class="row_calc" id="row05">
+                    <div class="btn"><button id="signal">+/-</button></div>
+                    <div class="btn"><button>0</button></div>
+                    <div class="btn"><button>,</button></div>
+                    <div class="btn"><button id="result">=</button></div>
+                </div>
+            </div>
+            <div class="push"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>David Teixeira de Masin</strong> durante o <strong>#7DaysOfCode</strong> da <strong>Alura</strong>.
+        </p>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
