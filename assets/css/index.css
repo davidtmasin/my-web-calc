@@ -30,7 +30,7 @@ header h1 {
     color: #fff;
 }
 .content{
-    min-height: calc(100vh - 70px);
+    /* min-height: calc(100vh - 70px); */
 }
 .container_calc {
     width: 100%;
@@ -95,8 +95,9 @@ header h1 {
 }
 
 footer {
+    padding-top: 20px;
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
 }
 
 footer p {
